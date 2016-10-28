@@ -23,9 +23,11 @@ $(window).bind('scroll', function(){
 		function parallaxScroll(){
 			var scrolledY = $(window).scrollTop();
 			$('#logo').css('top','-' + ((scrolledY*1.3)) + 'px');
+			$('#redbook').css('top','-' + ((scrolledY*0.9)) + 'px');
 		}
 
-$('#logo').fadeIn(3000);
+$('#logo, #redbook').fadeIn(3000);
+
 
 
 });
