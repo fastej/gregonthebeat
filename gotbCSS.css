@@ -1,10 +1,14 @@
 #logo {
 	display:block;
+	display:none;
 	height: 30em;
 	width: 40em;
-	margin-left:auto;
-	margin-right:auto;
 	margin-top: 9em;
+	position:absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
 }
 
 .font {
@@ -18,7 +22,7 @@
 
 #twitter {
 	position:static;
-	margin-top: 40em;
+	margin-top: 50em;
 	margin-bottom: 7em;
 	padding-top:0;
 	padding-bottom:0;
@@ -60,3 +64,5 @@ body {
 	background-size:cover;
 	
 }
+
+

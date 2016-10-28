@@ -16,5 +16,16 @@ $(document).ready( function() {
     });
   }); $(window).scroll(); 
 });
+ 
+$(window).bind('scroll', function(){
+			parallaxScroll();
+		});
+		function parallaxScroll(){
+			var scrolledY = $(window).scrollTop();
+			$('#logo').css('top','-' + ((scrolledY*1.3)) + 'px');
+		}
+
+$('#logo').fadeIn(3000);
+
 
 });
