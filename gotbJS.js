@@ -1,21 +1,17 @@
 $(document).ready( function() {
 
-'use strict'; $(window).on("load",function() {
-  $(window).scroll(function() {
-    $(".fade").each(function() {
-      
-      var objectBottom = $(this).offset().top + $(this).outerHeight();
-      var windowBottom = $(window).scrollTop() + $(window).innerHeight();
-      
-      
-      if (objectBottom < windowBottom) { 
-        if ($(this).css("opacity")==0) {$(this).fadeTo(3000,1);}
-      } else { 
-        if ($(this).css("opacity")==1) {$(this).fadeTo(400,0);}
-      }
+'use strict'; $(window).scroll( function(){
+        $('.hideme').each( function(){
+            var bottom_of_object = $(this).offset().top + $(this).outerHeight();
+            var bottom_of_window = $(window).scrollTop() + $(window).height();
+            if( bottom_of_window > bottom_of_object ){
+                $(this).addClass('showme');
+            }
+            if( bottom_of_window < bottom_of_object ){
+                $(this).removeClass('showme');
+            }
+        });
     });
-  }); $(window).scroll(); 
-});
  
 $(window).bind('scroll', function(){
 			parallaxScroll();
@@ -26,8 +22,9 @@ $(window).bind('scroll', function(){
 			$('#redbook').css('top','-' + ((scrolledY*0.9)) + 'px');
 		}
 
-$('#logo, #redbook').fadeIn(3000);
-
+$(document).ready( function(){
+	$('#logo, #redbook').delay(700).fadeIn(4000);
+	});
 
 
 });
