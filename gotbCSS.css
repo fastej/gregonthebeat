@@ -2,8 +2,8 @@
 	display:block;
 	display:none;
 	height: 17em;
-	width: 33em;
-	margin-top: 7.5em;
+	width: 37em;
+	margin-top: 7em;
 	position:absolute;
 	margin-left: auto;
 	margin-right: auto;
@@ -16,7 +16,7 @@
 	display:none;
 	height: 14em;
 	width: 40em;
-	margin-top: 23.8em;
+	margin-top: 23.5em;
 	position:absolute;
 	margin-left: auto;
 	margin-right: auto;
@@ -83,7 +83,7 @@ body {
 	background-position:top;
 	background-repeat: no-repeat;
 	background-size:cover;
-	background-image:url(backgradientblur1compressed.jpg);
+	background-image:url(blackbg.jpg);
 	
 }
 
