@@ -1,4 +1,4 @@
-@media screen and (min-width: 500px) {
+@media screen and (min-device-width: 500px) {
 #logo {
 	display:block;
 	display:none;
@@ -90,7 +90,7 @@ body {
 }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-device-width: 500px) {
 	
 	body {
 	background-position:top;
