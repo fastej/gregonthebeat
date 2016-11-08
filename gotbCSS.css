@@ -90,7 +90,7 @@ body {
 }
 }
 
-@media screen and (max-device-width: 500px) {
+@media screen and (max-width: 500px) {
 	
 	body {
 	background-position:top;
@@ -126,7 +126,7 @@ body {
 
 #twitter {
 	position:static;
-	margin-top: 50em;
+	margin-top: 40em;
 	margin-bottom: 7em;
 	padding-top:0;
 	padding-bottom:0;
