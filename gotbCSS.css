@@ -1,3 +1,4 @@
+@media screen and (min-width: 500px) {
 #logo {
 	display:block;
 	display:none;
@@ -87,4 +88,70 @@ body {
 	background-image:url(blackbg%20blacker.jpg);
 	
 }
+}
 
+@media screen and (max-width: 500px) {
+	
+	body {
+	background-position:top;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-image:url(blackbg%20blacker.jpg);
+	
+}
+	
+	#logo {
+	display:block;
+	height: 9.5em;
+	width: 20.5em;
+	margin-top: 11em;
+	position:absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#redbook {
+	display:block;
+	height: 8em;
+	width: 22.4em;
+	margin-top: 20.2em;
+	position:absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#twitter {
+	position:static;
+	margin-top: 50em;
+	margin-bottom: 7em;
+	padding-top:0;
+	padding-bottom:0;
+	width: 20em;
+}
+
+#soundcloud {
+	position:static;
+	margin-bottom: 7em;
+	padding-top:0;
+	padding-bottom:0;
+	width:22.5em;	
+	height: 5em;
+}
+
+#Email {
+	position:static;
+	margin-top:0;
+	margin-bottom:0;
+	text-align: center;
+	padding-top:0;
+	padding-bottom:0;
+	width:16em;
+	height:6em
+}
+
+
+}
