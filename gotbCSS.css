@@ -1,4 +1,4 @@
-@media screen and (min-device-width: 500px) {
+@media screen and (min-device-width: 700px) {
 #logo {
 	display:block;
 	display:none;
@@ -158,6 +158,91 @@ body {
 #blank {
 	width:100%;
 	height:5em;
+}
+
+.hideme {
+  opacity: 0;
+}
+
+.showme {
+  opacity:1;
+}
+
+.transition {
+	transition:all 2.5s ease-in-out;
+}
+
+
+}
+
+@media screen and (max-width: 400px) {
+	
+	body {
+	background-position:top;
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-image:url(blackbg%20blacker.jpg);
+	
+}
+	
+	#logo {
+	display:block;
+	display:none;
+	height: 8.5em;
+	width: 18.5em;
+	margin-top: 9em;
+	position:absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#redbook {
+	display:block;
+	display:none;
+	height: 7em;
+	width: 19em;
+	margin-top: 17.3em;
+	position:absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+}
+
+#twitter {
+	position:static;
+	margin-top: 35em;
+	margin-bottom: 7em;
+	padding-top:0;
+	padding-bottom:0;
+	width: 18em;
+}
+
+#soundcloud {
+	position:static;
+	margin-bottom: 7em;
+	padding-top:0;
+	padding-bottom:0;
+	width:18.5em;	
+	height: 5em;
+}
+
+#Email {
+	position:static;
+	margin-top:0;
+	margin-bottom:0;
+	text-align: center;
+	padding-top:0;
+	padding-bottom:0;
+	width:14em;
+	height:5em
+}
+
+#blank {
+	width:100%;
+	height:3.5em;
 }
 
 .hideme {
