@@ -85,7 +85,7 @@ body {
 	background-position:top;
 	background-repeat: no-repeat;
 	background-size:cover;
-	background-image:url(blackbg%20blacker.jpg);
+	background-image:url(blackbg-blacker-compressor.jpg);
 	
 }
 }
@@ -177,7 +177,7 @@ body {
 	background-position:top;
 	background-repeat: no-repeat;
 	background-size:cover;
-	background-image:url(blackbg%20blacker.jpg);
+	background-image:url(blackbg-blacker-compressor.jpg);
 	
 }
 }
@@ -188,7 +188,7 @@ body {
 	background-position:top;
 	background-repeat: no-repeat;
 	background-size:cover;
-	background-image:url(blackbg%20blacker.jpg);
+	background-image:url(blackbg-blacker-compressor.jpg);
 	
 }
 	
@@ -267,13 +267,13 @@ body {
 
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-device-width: 400px) {
 	
 	body {
 	background-position:top;
 	background-repeat: no-repeat;
 	background-size:cover;
-	background-image:url(blackbg%20blacker.jpg);
+	background-image:url(blackbg-blacker-compressor.jpg);
 	
 }
 	
